@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+header{
+    max-width: 960px;
+    background-color: black;
+}
+header h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    height: 560px;
+    width: auto;
+    background-image: url(https://thehungergamesonstage.com/app/uploads/2025/01/hg-firebird-pin-alt.jpg);
+}
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 15px;
+    max-width: 960px;
+}
+.titles{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+.cont-img-student{
+    margin: auto;
+    width: 270px;
+    height: 270px;
+}
+.pic-student{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+}
+.info-student{
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.text-cont{
+    padding-left: 20px;
+
+}
+.link-to{
+    text-decoration: none;
+    color: #ffffff;
+}
+.boton{
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #f84e05;
+    font-weight: 600;
+}
