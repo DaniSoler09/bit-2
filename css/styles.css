@@ -11,9 +11,8 @@ header{
 header h1{
     text-align: center;
     color: #ffffff;
-    font-family: "Creepster", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
 }
 main{
     height: 560px;
@@ -31,7 +30,7 @@ main{
     margin-bottom: 50px;
     text-align: center;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 35px;
 }
 .cont-img-student{
     margin: auto;
@@ -46,9 +45,12 @@ main{
     border: 2px solid #ffffff;
 }
 .info-student{
-    color: #ffffff;
+    color: orangered;
     margin-top: 30px;
     font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 .text-cont{
     padding-left: 20px;
@@ -68,4 +70,7 @@ main{
     border-radius: 10px;
     border: 2px solid #f84e05;
     font-weight: 600;
+}
+.result-info{
+    color: #ffffff;
 }
