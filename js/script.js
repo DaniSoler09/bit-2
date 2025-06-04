@@ -43,6 +43,13 @@ document.getElementById("next").addEventListener("click", function(){
     }else { 
         document.getElementById("titulo").innerHTML = "SURVIVER"
     }
+
+    if (globalInfo[siguiente].projects[0].score[0] < 3.5)
+      document.getElementById("xImg").style.display = "block"
+    else if (globalInfo[siguiente].intensity === "100 hours"){
+      document.getElementById("xImg").style.display = "block"
+    }
+    else document.getElementById("xImg").style.display = "none"
   });
 
   document.getElementById("back").addEventListener("click", function(){
